@@ -1,6 +1,11 @@
 import { GlobalStyle } from 'GlobalStyle';
 import user from '../data/user.json';
+
 import { Profile } from './Profile/Profile';
+
+import { Profile } from '../components/profile/Profile';
+import { GlobalStyle } from 'GlobalStyle';
+
 
 export const App = () => {
   return (
