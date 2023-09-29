@@ -9,10 +9,29 @@ export const GlobalStyle = createGlobalStyle`
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
 `;
