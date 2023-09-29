@@ -1,9 +1,11 @@
 import user from '../data/user.json';
 import { Profile } from '../components/profile/Profile';
+import { GlobalStyle } from 'GlobalStyle';
 
 export const App = () => {
   return (
     <div>
+      <GlobalStyle />
       <Profile
         username={user.username}
         tag={user.tag}
