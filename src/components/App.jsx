@@ -2,8 +2,8 @@ import { GlobalStyle } from 'GlobalStyle';
 import user from '../data/user.json';
 import data from '../data/data.json';
 
-import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
+import { Profile } from './Profile/Profile';
 
 export const App = () => {
   return (
