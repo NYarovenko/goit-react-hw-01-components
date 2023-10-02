@@ -23,7 +23,7 @@ export const Profile = ({
       <StyledDescription>
         <StyledPhotoUser src={avatar} alt={'User ' + username} />
         <StyledName>{username}</StyledName>
-        <StyledTag>@_{tag}</StyledTag>
+        <StyledTag>@{tag}</StyledTag>
         <StyledLocation>{location}</StyledLocation>
       </StyledDescription>
 
